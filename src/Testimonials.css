@@ -1,0 +1,76 @@
+.testimonials-vertical-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0194FE; /* Theme color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .subheading {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .testimonial-text-box {
+    flex: 1;
+    padding: 1.5rem;
+    background-color: #F9F9F9;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .testimonial-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0194FE; /* Theme color */
+    margin-top: 1rem;
+  }
+  
+  .testimonial-title {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Dot navigation */
+  .testimonial-dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .dot.active {
+    background-color: #0194FE; /* Theme color for active dot */
+  }
+  

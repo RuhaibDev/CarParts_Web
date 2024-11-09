@@ -1,0 +1,80 @@
+.stats-line{
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 4px;
+}
+.stats-svg{
+    height: 145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-div {
+    width: 25%;
+    padding: 20px;
+    background: #ffffff49;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7f7f7; /* light grey for input background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    text-align: center;
+    font-size: 14px;
+    color: #a9a9a9; /* light grey for placeholder text */
+    outline: none;
+}
+
+.input-box::placeholder {
+    color: #a9a9a9; /* matching placeholder color */
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.suggestions {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f0f0f0;
+}
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-input.input-focused {
+    color: black; /* Change input text color to black */
+}

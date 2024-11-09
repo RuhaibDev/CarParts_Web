@@ -1,0 +1,110 @@
+.footer {
+    background: linear-gradient(to right, #e0f7fa, #fff9c4);
+    padding: 40px 20px;
+    position: relative;
+    color: #333;
+    max-width: 100%; /* Ensures footer does not exceed viewport */
+    overflow: hidden; /* Prevents horizontal scrolling */
+  }
+  
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 223, 186, 0.5);
+    border-radius: 50%;
+    
+  }
+  
+  .footer::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: -50px;
+    width: 120px;
+    height: 120px;
+    background: rgba(197, 239, 247, 0.5);
+    border-radius: 50%;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    width: 100%; /* Ensures footer content uses full width */
+  }
+  
+  .contact-info {
+    flex: 1 1;
+    min-width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Ensures padding is included in width calculations */
+  }
+  
+  .contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #0277bd;
+     /* Space below the heading */
+  }
+  .contact-info p strong{
+    margin-right: 10px;
+  }
+  .contact-info p {
+    font-size: 0.9em;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info p svg {
+    margin-right: 8px;
+    color: #0277bd;
+  }
+  
+  .logo-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text for better alignment */
+    flex: 1;
+    min-width: 200px; /* Ensures proper spacing */
+  }
+  
+  .logo h2 {
+    font-size: 1.8em;
+    color: #0277bd;
+    margin: 0; /* Remove default margin for consistency */
+  }
+  
+  .logo span {
+    color: #333;
+    font-weight: normal; /* Lighten the text weight for a softer look */
+  }
+  
+  .social-icons {
+    display: flex; /* Keeps icons in a row */
+    justify-content: center; /* Centers icons */
+    margin-top: 10px; /* Space above social icons */
+  }
+  
+  .social-icons a {
+    font-size: 1.5em;
+    margin: 0 10px;
+    color: #0277bd;
+    transition: color 0.3s ease;
+    padding: 8px; /* Padding around icons for better touch target */
+  }
+  
+  .social-icons a:hover {
+    color: #333;
+  }
+  

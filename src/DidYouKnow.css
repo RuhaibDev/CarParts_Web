@@ -1,0 +1,59 @@
+.did-you-know {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f4f4f4; /* Light background to distinguish from surrounding components */
+    border-radius: 8px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #003366; /* Darker blue for the title */
+    margin-bottom: 0.5rem;
+  }
+  
+  .section-subtitle {
+    color: #666666; /* Gray for the subtitle text */
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .fact-slider {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .fact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #ffffff; /* White background for each card */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .fact-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  
+  .fact-icon {
+    font-size: 3rem;
+    color: #007bff; /* Accent color for icons */
+    margin-bottom: 1rem;
+  }
+  
+  .fact-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #003366; /* Match title color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .fact-description {
+    font-size: 1rem;
+    color: #555555; /* Dark gray for description text */
+    text-align: center;
+    line-height: 1.5;
+  }
+  
