@@ -55,9 +55,9 @@ const HeroPageSection = ({ onProductSelect }) => {
   return (
     <div id="home" className="heropagesection">
       <div className="heropagesection-i d-flex flex-column align-center g-20 m-t-20">
-        <h1 className="main-heading f-s-2-5">Your One-Stop Shop for Car Parts</h1>
+        <h1 className="main-heading f-s-2-5">Your One-Stop Shop for AC Parts</h1>
         <p className="f-s-1-5">
-          Browse our extensive selection of reliable car parts at unbeatable
+          Browse our extensive selection of reliable car AC parts at unbeatable
           prices.
         </p>
         <div className="stats d-flex align-center justify-evenly g-40 w-70 m-t-20">
