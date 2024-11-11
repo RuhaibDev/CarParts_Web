@@ -8,7 +8,7 @@ const Api = [
         "company": "Toyota",
         "price": 50,
         "rating": 4.5,
-        "description": "High-performance brake pads for Toyota Corolla.",
+        "description": "High-performance brake pads for Toyota Corolla.High-performance brake pads for Toyota Corolla.High-performance brake pads for Toyota Corolla.High-performance brake pads for Toyota Corolla.High-performance brake pads for Toyota Corolla.High-performance brake pads for Toyota Corolla.",
         "stock": 150,
         "image": img
     },

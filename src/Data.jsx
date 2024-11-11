@@ -1,27 +1,23 @@
-import React, { useState,useEffect,useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { FaStar, FaTruck } from 'react-icons/fa';
 import { AiOutlineRight } from 'react-icons/ai';
 import Api from './Api'; // Importing data from Api.js
-import Modal from './Modal'; // Import Modal component
 import './Data.css';
 import './Common.css';
 
-const Data = ({ title,selectedProductId }) => {
-  const productRefs = useRef({}); // Store refs for each product
-
+const Data = ({ title, selectedProductId }) => {
+  const productRefs = useRef({});
+  
   useEffect(() => {
     if (selectedProductId && productRefs.current[selectedProductId]) {
       productRefs.current[selectedProductId].scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   }, [selectedProductId]);
-  const [selectedPart, setSelectedPart] = useState(null); // State to track selected part for modal
 
-  const openModal = (part) => {
-    setSelectedPart(part);
-  };
+  const [expandedCard, setExpandedCard] = useState(null);
 
-  const closeModal = () => {
-    setSelectedPart(null);
+  const toggleDetails = (id) => {
+    setExpandedCard(expandedCard === id ? null : id);
   };
 
   return (
@@ -31,8 +27,8 @@ const Data = ({ title,selectedProductId }) => {
         {Api.map((part) => (
           <div
             key={part.id}
-            ref={(el) => (productRefs.current[part.id] = el)} // Attach ref to each product card
-            className={`card ${selectedProductId === part.id ? 'highlight' : ''}`} // Optionally add highlight styling
+            ref={(el) => (productRefs.current[part.id] = el)}
+            className={`card ${expandedCard === part.id ? 'expanded' : ''}`}
           >
             <img src={part.image} alt={part.name} className="product-image" />
             <div className="card-header">
@@ -40,22 +36,21 @@ const Data = ({ title,selectedProductId }) => {
               <h5>{part.price} Rs</h5>
             </div>
             <p className="car-model">Model: {part.model}</p>
-            <p className="description">{part.description.slice(0, 50)}...</p>
+            <div className={`description ${expandedCard === part.id ? 'show-full' : 'show-preview'}`}>
+              {part.description}
+            </div>
             <div className="rating">
               <FaStar /> <p>{part.rating}</p>
             </div>
             <div className="card-icons d-flex justify-start g-5">
               <FaTruck /> Free Shipping
             </div>
-            <button className="view-deal" onClick={() => openModal(part)}>
-              View Deal <AiOutlineRight />
+            <button className="view-deal" onClick={() => toggleDetails(part.id)}>
+              {expandedCard === part.id ? 'Hide Details' : 'View Details'} <AiOutlineRight />
             </button>
           </div>
         ))}
       </div>
-
-      {/* Modal for showing selected product details */}
-      {selectedPart && <Modal part={selectedPart} onClose={closeModal} />}
     </div>
   );
 };
