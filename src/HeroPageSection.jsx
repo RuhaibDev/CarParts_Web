@@ -61,7 +61,7 @@ const HeroPageSection = ({ onProductSelect }) => {
           prices.
         </p>
         <div className="stats d-flex align-center justify-evenly g-40 w-70 m-t-20">
-          <div className="stats-i m-l-40 m-r-40 d-flex align-center justify-center flex-column g-5 w-30">
+          <div className="stats-i m-l-40 d-flex align-center justify-center flex-column g-5 w-30">
             <div className="stats-svg ">
               <svg
                 width="140"
@@ -112,7 +112,7 @@ const HeroPageSection = ({ onProductSelect }) => {
             <p className="stats-i-para">Expert Support Team</p>
           </div>
           <div className="stats-line"></div>
-          <div className="stats-i m-l-40 m-r-40 d-flex align-center justify-center flex-column g-5 w-30 ">
+          <div className="stats-i m-l-40 d-flex align-center justify-center flex-column g-5 w-30 ">
             <div className="stats-svg ">
               <svg
                 width="120"
@@ -300,7 +300,7 @@ const HeroPageSection = ({ onProductSelect }) => {
             <p className="stats-i-para">Worth every penny spent.</p>
           </div>
           <div className="stats-line"></div>
-          <div className="stats-i m-l-40 m-r-40 d-flex align-center justify-center flex-column g-5 w-30">
+          <div className="stats-i m-l-40 d-flex align-center justify-center flex-column g-5 w-30">
             <div className="stats-svg">
               <svg
                 width="120"
