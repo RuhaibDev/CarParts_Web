@@ -23,6 +23,8 @@
     background: radial-gradient(circle at 20% 50%, #6EC1E4, transparent 50%), /* Left circle */ radial-gradient(circle at 80% 50%, #FFD56E, transparent 50%);
     background: white;
     padding: 0;
+    background: #ffffffd4;
+    backdrop-filter: blur(7px);
   }
   .pad-none{
     padding: 10px 20px;
