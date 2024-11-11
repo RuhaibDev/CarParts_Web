@@ -53,7 +53,7 @@ const HeroPageSection = ({ onProductSelect }) => {
     );
   };
   return (
-    <div className="heropagesection">
+    <div id="home" className="heropagesection">
       <div className="heropagesection-i d-flex flex-column align-center g-20 m-t-20">
         <h1 className="main-heading f-s-2-5">Your One-Stop Shop for Car Parts</h1>
         <p className="f-s-1-5">

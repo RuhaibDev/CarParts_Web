@@ -16,11 +16,8 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
-      const viewportHeight = window.innerHeight;
-      
-      // Check if the scroll position is greater than 100vh
-      if (scrollPosition > viewportHeight) {
+      // Make header sticky as soon as the user scrolls down even a little
+      if (window.scrollY > 0) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
@@ -31,9 +28,9 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
   return (
-    <div id="home" className={`sticky-element ${isSticky ? 'is-sticky' : ''}`}>
-      <div className={`header-inner p-20 d-flex align-center justify-between ${isSticky ? 'pad-none' : ''}`}>
-        <div className="header-left d-flex align-center w-30">
+    <div  className={`sticky-element ${isSticky ? 'is-sticky' : ''}`}>
+      <div  className={`header-inner p-20 d-flex align-center justify-between ${isSticky ? 'pad-none' : ''}`}>
+        <div  className="header-left d-flex align-center w-30">
           <svg
             width="71"
             height="71"
@@ -55,22 +52,22 @@ const Header = () => {
           <nav>
             <ul className="nav-list">
               <li>
-                <Link to="home" smooth={true} duration={100}>
+                <Link to="home" smooth={true} duration={100} offset={-60}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="services" smooth={true} duration={100}>
+                <Link to="services" smooth={true} duration={100} offset={-110}>
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="about" smooth={true} duration={100}>
+                <Link to="about" smooth={true} duration={100} offset={-110}>
                   About
                 </Link>
               </li>
               <li>
-                <Link to="contact" smooth={true} duration={100}>
+                <Link to="contact" smooth={true} duration={100} offset={-110}>
                   Contact
                 </Link>
               </li>
