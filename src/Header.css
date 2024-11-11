@@ -82,7 +82,7 @@
 
 /* Option 3: Shadow and Scale Effect */
 .nav-list li a:hover {
-    box-shadow: 0 2px 5px rgba(1, 148, 254, 0.3);
+    
     /* Subtle shadow */
     transform: scale(1.05);
     /* Slightly increases size */

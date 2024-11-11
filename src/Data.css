@@ -34,6 +34,10 @@
   font-weight: bold;
 }
 
+.price{
+  color: #0194FE;
+}
+
 .car-model {
   font-size: 0.9rem;
   color: #666;

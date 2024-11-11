@@ -33,7 +33,7 @@ const Data = ({ title, selectedProductId }) => {
             <img src={part.image} alt={part.name} className="product-image" />
             <div className="card-header">
               <h5>{part.name}</h5>
-              <h5>{part.price} Rs</h5>
+              <h5 className='price'>{part.price} Rs</h5>
             </div>
             <p className="car-model">Model: {part.model}</p>
             <div className={`description ${expandedCard === part.id ? 'show-full' : 'show-preview'}`}>
