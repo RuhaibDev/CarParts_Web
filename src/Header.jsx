@@ -51,23 +51,23 @@ const Header = () => {
         <div className="header-mid w-35 d-flex align-center justify-center">
           <nav>
             <ul className="nav-list">
-              <li>
-                <Link to="home" smooth={true} duration={100} offset={-60}>
+              <li className="d-flex align-center justify-center">
+                <Link className="d-flex align-center justify-center" to="home" smooth={true} duration={100} offset={-60}>
                   Home
                 </Link>
               </li>
-              <li>
-                <Link to="services" smooth={true} duration={100} offset={-110}>
+              <li className="d-flex align-center justify-center">
+                <Link className="d-flex align-center justify-center" to="services" smooth={true} duration={100} offset={-110}>
                   Services
                 </Link>
               </li>
-              <li>
-                <Link to="about" smooth={true} duration={100} offset={-110}>
+              <li className="d-flex align-center justify-center">
+                <Link className="d-flex align-center justify-center" to="about" smooth={true} duration={100} offset={-110}>
                   About
                 </Link>
               </li>
-              <li>
-                <Link to="contact" smooth={true} duration={100} offset={-110}>
+              <li className="d-flex align-center justify-center">
+                <Link className="d-flex align-center justify-center" to="contact" smooth={true} duration={100} offset={-110}>
                   Contact
                 </Link>
               </li>
