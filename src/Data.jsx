@@ -30,7 +30,7 @@ const Data = ({ title, selectedProductId }) => {
             ref={(el) => (productRefs.current[part.id] = el)}
             className={`card ${expandedCard === part.id ? 'expanded' : ''}`}
           >
-            <img src={part.image} alt={part.name} className="product-image" />
+            <img style={{height:"220px",width:"185px"}} src={part.image} alt={part.name} className="product-image" />
             <div className="card-header">
               <h5>{part.name}</h5>
               <h5 className='price'>{part.price} Rs</h5>

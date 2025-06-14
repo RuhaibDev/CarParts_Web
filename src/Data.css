@@ -19,7 +19,7 @@
   transition: transform 0.3s ease;
   overflow: hidden;
   position: relative;
-  max-height: 300px; /* Collapsed height */
+  max-height: 400px; /* Collapsed height */
 }
 
 .card.expanded {

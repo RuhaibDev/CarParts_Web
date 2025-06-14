@@ -3,7 +3,7 @@ import './Testimonials.css';
 
 const testimonials = [
   {
-    text: "AU-Automotive provides outstanding service with high-quality parts! My car runs smoothly thanks to them.",
+    text: "Automotive provides outstanding service with high-quality parts! My car runs smoothly thanks to them.",
     name: "Sophia L",
     title: "Car Enthusiast"
   },
@@ -13,7 +13,7 @@ const testimonials = [
     title: "Mechanic"
   },
   {
-    text: "Affordable and reliable parts, perfect for my workshop. I trust AU-Automotive for quality and service.",
+    text: "Affordable and reliable parts, perfect for my workshop. I trust Automotive for quality and service.",
     name: "Emily R",
     title: "Garage Owner"
   }
@@ -29,7 +29,7 @@ const Testimonials = () => {
   return (
     <div className="testimonials-vertical-container">
       <h2 className="heading">What People Are Saying</h2>
-      <p className="subheading">See how AU-Automotive has made a difference</p>
+      <p className="subheading">See how Automotive has made a difference</p>
       
       <div className="testimonial-content">
         <div className="testimonial-text-box">
