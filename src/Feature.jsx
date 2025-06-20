@@ -15,7 +15,7 @@ const Feature = () => {
                     <div className="feature-div d-flex g-25 flex-column">
                         <div className="feature-d d-flex g-20">
                             <div className="feature-svg bg-blue icon-circle">
-                                <MdVerified color='white' size='3rem'></MdVerified>
+                                <MdVerified className='icon' color='white' size='3rem'></MdVerified>
                             </div>
                             <div className="feature-content w-70">
                                 <h2 className='f-w-600 museo'>Quality Parts</h2>
@@ -24,7 +24,7 @@ const Feature = () => {
                         </div>
                         <div className="feature-d d-flex g-20">
                             <div className="feature-svg bg-blue icon-circle">
-                                <BiDollar color='white' size='3rem'></BiDollar>
+                                <BiDollar className='icon' color='white' size='3rem'></BiDollar>
                             </div>
                             <div className="feature-content w-70">
                                 <h2 className='f-w-600 museo'>Competitive Pricing</h2>
@@ -33,7 +33,7 @@ const Feature = () => {
                         </div>
                         <div className="feature-d d-flex  g-20">
                             <div className="feature-svg bg-blue icon-circle">
-                                <RiTruckLine color='white' size='3rem'></RiTruckLine>
+                                <RiTruckLine className='icon' color='white' size='3rem'></RiTruckLine>
                             </div>
                             <div className="feature-content w-70">
                                 <h2 className='f-w-600 museo'>Easy Pickup and Delivery</h2>
@@ -42,7 +42,7 @@ const Feature = () => {
                         </div>
                         <div className="feature-d d-flex  g-20">
                             <div className="feature-svg bg-blue icon-circle">
-                                <FaHandshake color='white' size='3rem'></FaHandshake>
+                                <FaHandshake className='icon' color='white' size='3rem'></FaHandshake>
                             </div>
                             <div className="feature-content w-70 ">
                                 <h2 className='f-w-600 museo'>Transparent Service</h2>
