@@ -32,7 +32,7 @@ const Header = () => {
         </div>
 
         {/* Center: Nav Links (collapse under mobile) */}
-        <div className={`header-mid ${isMobileMenuOpen ? "mobile-open" : ""}`} style={{padding:"20px"}}>
+        <div className={`header-mid ${isMobileMenuOpen ? "mobile-open" : ""}`} >
           <nav>
             <ul className="nav-list">
               {["home", "services", "about", "contact"].map((sec) => (
