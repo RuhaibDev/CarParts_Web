@@ -190,7 +190,7 @@
     overflow: hidden;
   }
   .header-mid.mobile-open {
-    max-height: 300px; /* ensure it can show all links */
+    min-height: 220px; /* ensure it can show all links */
   }
 
   /* Vertical nav links on mobile */

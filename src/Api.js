@@ -32,7 +32,7 @@ const Api = [
     company: "Toyota",
     price: 50,
     rating: 5,
-    description: `Elevate cabin comfort with the Denso XLi heater, designed specifically for the Toyota Corolla. Its precision engineering ensures rapid warm-up and consistent temperature control, even on the coldest mornings. Experience reliable performance you can count on year-round.`,
+    description: `Our premium-quality car heaters are designed to deliver fast, efficient, and reliable cabin heating in all weather conditions. Made with high-grade materials and precise engineering, these heaters ensure consistent warm air flow and optimal comfort during winter drives. With OEM-level fitment and performance, they are easy to install and compatible with a wide range of vehicles. Built for durability, leak resistance, and long-lasting performance, our heaters are the perfect choice for a cozy and safe driving experience. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 150,
     image: a1
   },
@@ -43,7 +43,7 @@ const Api = [
     company: "Toyota",
     price: 15,
     rating: 5,
-    description: `Improve your Alto’s cooling efficiency with this durable section and discharge line set. Crafted from premium-grade materials, it resists wear and ensures smooth fluid flow. Perfect fit guaranteed for seamless installation.`,
+    description: `Our high-quality hose pipes are designed for reliable performance in all types of car engine and AC systems. Made from durable, heat-resistant, and flexible materials, these hoses ensure smooth fluid and air flow under high pressure and temperature. Whether it's coolant, vacuum, fuel, or AC refrigerant lines, our hoses provide a perfect fit and long-lasting sealing. Ideal for replacements or custom setups, with OEM-level quality and compatibility. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 80,
     image: a2
   },
@@ -54,7 +54,7 @@ const Api = [
     company: "Suzuki",
     price: 20,
     rating: 5,
-    description: `Upgrade to the Wagon R discharge pipe for your Wagon R and enjoy effortless coolant circulation. Its robust construction stands up to high temperatures, preventing leaks and blockages. Trust in superior durability mile after mile.`,
+    description: `Our high-quality hose pipes are designed for reliable performance in all types of car engine and AC systems. Made from durable, heat-resistant, and flexible materials, these hoses ensure smooth fluid and air flow under high pressure and temperature. Whether it's coolant, vacuum, fuel, or AC refrigerant lines, our hoses provide a perfect fit and long-lasting sealing. Ideal for replacements or custom setups, with OEM-level quality and compatibility. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 100,
     image: a3
   },
@@ -65,7 +65,7 @@ const Api = [
     company: "Honda",
     price: 30,
     rating: 5,
-    description: `Step into a cozy cabin every time with the Honda City GM heater. Featuring fast heat delivery and quiet operation, it ensures a comfortable ride without distraction. Built to OEM standards for perfect compatibility.`,
+    description: `Our premium-quality car heaters are designed to deliver fast, efficient, and reliable cabin heating in all weather conditions. Made with high-grade materials and precise engineering, these heaters ensure consistent warm air flow and optimal comfort during winter drives. With OEM-level fitment and performance, they are easy to install and compatible with a wide range of vehicles. Built for durability, leak resistance, and long-lasting performance, our heaters are the perfect choice for a cozy and safe driving experience. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 200,
     image: a4
   },
@@ -76,7 +76,7 @@ const Api = [
     company: "Suzuki",
     price: 120,
     rating: 5,
-    description: `Specifically engineered for the Alto 660, this high-efficiency heater delivers rapid warmth on chilly drives. Its corrosion-resistant housing guarantees longevity, while easy installation saves you time. Drive comfortably in style.`,
+    description: `Our premium-quality car heaters are designed to deliver fast, efficient, and reliable cabin heating in all weather conditions. Made with high-grade materials and precise engineering, these heaters ensure consistent warm air flow and optimal comfort during winter drives. With OEM-level fitment and performance, they are easy to install and compatible with a wide range of vehicles. Built for durability, leak resistance, and long-lasting performance, our heaters are the perfect choice for a cozy and safe driving experience. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 50,
     image: a5
   },
@@ -87,7 +87,7 @@ const Api = [
     company: "Toyota",
     price: 100,
     rating: 5,
-    description: `Optimize coolant flow with this 1.6 discharge pipe, tailored for the Corolla XLi. Its smooth interior reduces friction and heat build-up, promoting engine longevity. Engineered for a leak-free, long-lasting seal.`,
+    description: `Our high-quality hose pipes are designed for reliable performance in all types of car engine and AC systems. Made from durable, heat-resistant, and flexible materials, these hoses ensure smooth fluid and air flow under high pressure and temperature. Whether it's coolant, vacuum, fuel, or AC refrigerant lines, our hoses provide a perfect fit and long-lasting sealing. Ideal for replacements or custom setups, with OEM-level quality and compatibility. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 30,
     image: a6
   },
@@ -98,7 +98,9 @@ const Api = [
     company: "Suzuki",
     price: 35,
     rating: 5,
-    description: `Refresh your Alto’s A/C system with this high-performance condenser. Fast heat exchange and corrosion-resistant fins keep your cabin cool even in extreme heat. Installation is hassle-free for quick on-road comfort.`,
+    description: `This car AC condenser is designed for powerful cooling and quiet, reliable performance. Each unit is helium-tested for leakage to ensure it is 100% sealed and dependable. Made with high-quality, rust-resistant materials, it delivers long-lasting efficiency and durability. With OEM-level fitment, installation is smooth and requires no modifications. Enjoy consistent cooling and smooth airflow on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 90,
     image: a7
   },
@@ -109,7 +111,7 @@ const Api = [
     company: "Honeywell",
     price: 130,
     rating: 5,
-    description: `Power your car’s auxiliary systems with this reliable gas cylinder generator. Compact design fits seamlessly under the hood, delivering consistent voltage for all your electrical needs. Engineered to OEM specs for perfect compatibility.`,
+    description: `Power your car’s auxiliary systems with this reliable gas cylinder generator. Compact design fits seamlessly under the hood, delivering consistent voltage for all your electrical needs. Engineered to OEM specs for perfect compatibility. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 40,
     image: a8
   },
@@ -120,7 +122,9 @@ const Api = [
     company: "Kia",
     price: 20,
     rating: 5,
-    description: `Beat the heat with this efficient A/C condenser for the Kia Sportage. Precision-welded joints prevent leaks, while the high-capacity core ensures rapid cooling. Designed to fit seamlessly into your vehicle’s system.`,
+    description: `This car AC condenser is designed for powerful cooling and quiet, reliable performance. Each unit is helium-tested for leakage to ensure it is 100% sealed and dependable. Made with high-quality, rust-resistant materials, it delivers long-lasting efficiency and durability. With OEM-level fitment, installation is smooth and requires no modifications. Enjoy consistent cooling and smooth airflow on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 110,
     image: a9
   },
@@ -131,7 +135,9 @@ const Api = [
     company: "Toyota",
     price: 150,
     rating: 5,
-    description: `Unleash peak cooling performance with the XLi 10 condenser, crafted for the Corolla. Its advanced fin design boosts airflow, reducing cabin heat swiftly. Built tough to last through varying conditions.`,
+    description: `This car AC condenser is designed for powerful cooling and quiet, reliable performance. Each unit is helium-tested for leakage to ensure it is 100% sealed and dependable. Made with high-quality, rust-resistant materials, it delivers long-lasting efficiency and durability. With OEM-level fitment, installation is smooth and requires no modifications. Enjoy consistent cooling and smooth airflow on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 60,
     image: a10
   },
@@ -142,7 +148,9 @@ const Api = [
     company: "Suzuki",
     price: 80,
     rating: 5,
-    description: `Keep cool on every journey with this durable Wagon R condenser. Superior thermal conductivity and reinforced frame deliver long-lasting performance. Simple bolt-on installation gets you back on the road fast.`,
+    description: `This car AC condenser is designed for powerful cooling and quiet, reliable performance. Each unit is helium-tested for leakage to ensure it is 100% sealed and dependable. Made with high-quality, rust-resistant materials, it delivers long-lasting efficiency and durability. With OEM-level fitment, installation is smooth and requires no modifications. Enjoy consistent cooling and smooth airflow on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 70,
     image: a11
   },
@@ -153,7 +161,9 @@ const Api = [
     company: "Kia",
     price: 200,
     rating: 5,
-    description: `Upgrade your Picanto’s A/C with this high-efficiency condenser. Rapid heat rejection and anti-corrosive coating guard against wear. Precision-fit design ensures easy integration.`,
+    description: `This car AC condenser is designed for powerful cooling and quiet, reliable performance. Each unit is helium-tested for leakage to ensure it is 100% sealed and dependable. Made with high-quality, rust-resistant materials, it delivers long-lasting efficiency and durability. With OEM-level fitment, installation is smooth and requires no modifications. Enjoy consistent cooling and smooth airflow on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 25,
     image: a12
   },
@@ -164,7 +174,7 @@ const Api = [
     company: "Denso",
     price: 180,
     rating: 5,
-    description: `Protect and extend the life of any compressor with ND8’s premium lubricant. Its advanced formula reduces friction and resists high temperatures, ensuring smooth operation under heavy loads. Ideal for all makes and models.`,
+    description: `DENSO ND8 PAG Oil is a high-quality lubricant designed for car AC compressors using R134a refrigerant. Equivalent to PAG 46, it provides excellent lubrication, reduces wear, and extends compressor life. It is thermally stable, moisture-resistant, and ensures smooth, quiet performance. OEM-recommended for reliable and long-lasting AC operation. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 45,
     image: a13
   },
@@ -175,7 +185,7 @@ const Api = [
     company: "Emkarate",
     price: 100,
     rating: 5,
-    description: `Panda’s compressor oil delivers exceptional protection against wear and heat. Its high-viscosity formulation maintains stability under extreme conditions, ensuring reliable performance every time. Perfect choice for diverse compressor systems.`,
+    description: `This synthetic Polyol Ester (POE) refrigeration lubricant by Emkarate is specially designed for car AC compressors. It provides excellent lubrication, reduces wear and tear, and helps improve compressor life and performance. Compatible with R134a and other modern refrigerants, it ensures smooth operation and protects your AC system in all conditions. Ideal for both new and rebuilt compressors. This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 35,
     image: a14
   },
@@ -186,7 +196,9 @@ const Api = [
     company: "Honda",
     price: 70,
     rating: 5,
-    description: `Restore crisp, cool air in your Civic with this genuine evaporator unit. Designed for 2018-2019 models, it guarantees efficient heat exchange and quiet operation. Delivers OEM-level quality and fit.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 90,
     image: a15
   },
@@ -197,7 +209,9 @@ const Api = [
     company: "Suzuki",
     price: 220,
     rating: 5,
-    description: `Experience rapid cooling with this high-flow evaporator for the new Alto. Its corrosion-resistant coating preserves performance over time, while exact-fit design simplifies installation. Keep your cabin fresh all summer.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 20,
     image: a16
   },
@@ -208,7 +222,9 @@ const Api = [
     company: "Daihatsu",
     price: 60,
     rating: 5,
-    description: `Upgrade your 2010 Mira with this efficient evaporator that excels in heat absorption. Crafted with precision-engineered coils, it ensures uniform cooling and long service life. Direct OEM fit for hassle-free replacement.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 75,
     image: a17
   },
@@ -219,7 +235,9 @@ const Api = [
     company: "Toyota",
     price: 150,
     rating: 5,
-    description: `Conquer tough terrain and extreme weather with this rugged Rivo 4x4 evaporator. Its reinforced housing withstands harsh environments while delivering consistent cooling. Built to Toyota’s exacting standards.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 40,
     image: a18
   },
@@ -230,7 +248,8 @@ const Api = [
     company: "Suzuki",
     price: 95,
     rating: 5,
-    description: `Specifically tuned for Pakistani Wagon R models, this evaporator provides swift and steady cooling. Its precision-coated fins resist corrosion, ensuring lasting efficiency and comfort. Easy plug-and-play installation.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 30,
     image: a19
   },
@@ -241,7 +260,9 @@ const Api = [
     company: "Toyota",
     price: 190,
     rating: 5,
-    description: `Revitalize your ’04 Corolla’s climate control with this precision evaporator. Advanced coil design maximizes heat exchange, while durable materials guarantee longevity. OEM-quality for a seamless fit.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 20,
     image: a20
   },
@@ -252,7 +273,9 @@ const Api = [
     company: "Honda",
     price: 25,
     rating: 5,
-    description: `Enjoy quiet, efficient cooling with this Vezel-specific evaporator. Its optimized airflow pathways ensure rapid temperature drop, while high-strength components resist wear. Perfect OEM match.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 110,
     image: a21
   },
@@ -263,7 +286,9 @@ const Api = [
     company: "MG",
     price: 120,
     rating: 5,
-    description: `Bring premium cooling to your MG HS with this state-of-the-art evaporator. Engineered for maximum heat absorption, its corrosion-resistant build lasts through years of use. Simple swap with original unit.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 50,
     image: a22
   },
@@ -274,7 +299,9 @@ const Api = [
     company: "Hyundai",
     price: 180,
     rating: 5,
-    description: `Achieve peak A/C performance in your Elantra with this efficient evaporator unit. Its precision-engineered coils deliver uniform cooling, while durable construction withstands corrosion. OEM-grade quality and fit.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 25,
     image: a23
   },
@@ -285,7 +312,9 @@ const Api = [
     company: "Kia",
     price: 20,
     rating: 5,
-    description: `Ensure cool comfort in your Sportage with this robust evaporator. High-efficiency coil design optimizes heat removal, and anti-corrosion finish extends lifespan. Direct replacement for hassle-free upgrade.`,
+    description: `This evaporator unit delivers powerful cooling and quiet performance. Each unit is leak-tested at 300 PSI to ensure strength and reliable operation. Built with rust-resistant materials, it’s made to last and maintain long-term efficiency. With OEM-level fitment, it installs easily with no modifications required. Enjoy smooth airflow, long-lasting performance, and peace of mind on every drive.
+
+This product is exclusively available from Auto Motive Car AC Parts. To order, please contact us via WhatsApp or phone.`,
     stock: 150,
     image: a24
   }

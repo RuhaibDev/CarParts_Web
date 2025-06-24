@@ -9,8 +9,14 @@ import './Common.css';
 const Data = ({ title, selectedProductId }) => {
   const productRefs = useRef({});
   const [expandedCard, setExpandedCard] = useState(null);
+  const [showAll, setShowAll] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    if (window.innerWidth <= 768) {
+      setIsMobile(true);
+    }
+
     if (selectedProductId && productRefs.current[selectedProductId]) {
       productRefs.current[selectedProductId].scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
@@ -20,11 +26,13 @@ const Data = ({ title, selectedProductId }) => {
     setExpandedCard(expandedCard === id ? null : id);
   };
 
+  const displayedProducts = isMobile && !showAll ? Api.slice(0, 10) : Api;
+
   return (
     <div className="car-parts">
       <h1 className="section-title">{title || 'Available Car Parts'}</h1>
       <div className="cards-container">
-        {Api.map((part) => {
+        {displayedProducts.map((part) => {
           const isOpen = expandedCard === part.id;
           return (
             <div
@@ -36,7 +44,7 @@ const Data = ({ title, selectedProductId }) => {
                 src={part.image}
                 alt={part.name}
                 className="product-image"
-                style={{height:"220px",width:"185px"}}
+                style={{ height: "220px", width: "185px" }}
               />
               <div className="card-header">
                 <h5 className={isOpen ? 'title-expanded' : 'title-truncated'}>
@@ -60,9 +68,16 @@ const Data = ({ title, selectedProductId }) => {
           );
         })}
       </div>
+
+      {isMobile && !showAll && Api.length > 10 && (
+        <div className="show-all-container">
+          <button className="show-all-button" onClick={() => setShowAll(true)}>
+            Show All Products
+          </button>
+        </div>
+      )}
     </div>
   );
 };
 
 export default Data;
-

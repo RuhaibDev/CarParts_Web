@@ -87,12 +87,20 @@
 }
 
 @media (max-width: 888px) {
+
+    .heropagesection{
+        margin-top: 70px;
+    }
     .f-s-2-5 {
-        font-size: 1.8rem;
+        font-size: 1.65rem;
+        text-align: center;
+        padding: 20px 10px 0px 10px;
     }
 
     .f-s-1-5 {
         font-size: 1rem;
+        padding: 0px 10px;
+        
     }
     .heropagesection-i p{
         text-align: center;
