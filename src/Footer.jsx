@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="logo d-flex flex-column align-center justify-center">
             <img src={AULOGO2} style={{"height":"140px", width:"140px"}} alt="Automotive Logo" />
           <div className="d-flex align-center justify-center ">
-            <img style={{"height":"140px", width:"170px"}} src={AULOGO} alt="Automotive Logo" />
+            <img style={{"height":"60px", width:"80px"}} src={AULOGO} alt="Automotive Logo" />
             <h2><span>AutoMotive</span></h2>
 </div>
           </div>
